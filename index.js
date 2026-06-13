@@ -5,7 +5,7 @@ function cypressTestProjesi() {
   };
 
   return checklist;
-  //commit 2
+  //commit 3
 }
 
 /* Bu satırdan sonraki satırları silmeyin! */
