@@ -1,7 +1,8 @@
 export default function Success() {
   return (
-    <main style={{ padding: '2rem' }}>
-      <h1>Başarılı</h1>
+    <main style={{ padding: '2rem', textAlign: 'center' }}>
+      <h1 data-cy="success-title">Giriş başarılı</h1>
+      <p data-cy="success-message">Hoş geldiniz.</p>
     </main>
   );
 }
