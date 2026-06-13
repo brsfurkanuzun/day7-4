@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "test:e2e": "start-server-and-test dev http-get://127.0.0.1:5173 cypress:run"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -20,6 +21,7 @@
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
     "cypress": "^13.16.0",
+    "start-server-and-test": "^2.0.8",
     "vite": "^5.4.11"
   }
 }
